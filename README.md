@@ -1,1 +1,1 @@
-# Email-Password-Authentication--Python
+# Registration and Login System -- Python
