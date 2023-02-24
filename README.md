@@ -1,14 +1,11 @@
 # Registration-and-Login-System using python along with File handling and Regular Expression
 
-This project is a simple registration and login system implemented in Python, using file handling.
+This project is a simple registration and login system implemented in Python, using file handling and Regular Expression. 
 
 ## Features
 - User registration: The system validates the email/username and password input, and stores the user's credentials in a file.
 - User login: The system checks the user's input against the data stored in the file, and allows access if the credentials match.
 - Forgotten password retrieval: The system allows the user to retrieve their password by providing their username.
-
-## Requirements
-- Python 3
 
 ## Usage
 1. Run the script with `python main.py`
