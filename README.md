@@ -29,11 +29,11 @@ When the user chooses to register, the following validation is applied to their 
         - Example: sherlock@gmail.com, nothing@yahoo.in
     - Should not contain "." immediately after "@"
         - Example: my@.in
-    - Should not start with special characters or numbers
+    - Should not start with special characters or numbers.
         - Example: 123#@gmail.com
 - Password:
-    - Must be between 5 and 16 characters in length
-    - Must contain at least one special character, one digit, one uppercase, and one lowercase character
+    - Must be between 5 and 16 characters in length.
+    - Must contain at least one special character, one digit, one uppercase, and one lowercase character.
 
 ## Stage 2: Data Storage
 
@@ -43,11 +43,11 @@ Once the username and password are validated, the data is stored in a file.
 
 When the user chooses to login, the following process is followed:
 
-- Check whether the inputted username and password exist in the file
+- Check whether the inputted username and password exist in the file.
 - If the credentials do not exist:
-    - Ask the user to go for registration
+    - Ask the user to go for registration.
 - If the user has chosen "forgot password":
-    - Retrieve the original password based on the provided username (if it exists in the file)
-    - Allow the user to provide a new password (if their username matches with the data in the file)
+    - Retrieve the original password based on the provided username (if it exists in the file).
+    - Allow the user to provide a new password (if their username matches with the data in the file).
 - If nothing matches in the file:
-    - Ask the user to go for registration (since they do not have an account)
+    - Ask the user to go for registration (since they do not have an account).
